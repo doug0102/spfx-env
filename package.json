@@ -1,0 +1,24 @@
+{
+  "name": "generator-spfx-env",
+  "version": "1.0.0",
+  "description": "Yeoman generator to add multi-environment config injection to SPFx projects",
+  "main": "generators/app/index.js",
+  "keywords": [
+    "yeoman-generator",
+    "spfx",
+    "sharepoint",
+    "environment",
+    "config"
+  ],
+  "scripts": {
+    "link": "npm link"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "glob": "^8.1.0",
+    "yeoman-generator": "^5.10.0"
+  },
+  "peerDependencies": {
+    "yo": "^4.0.0"
+  }
+}
